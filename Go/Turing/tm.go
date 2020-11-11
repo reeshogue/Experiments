@@ -5,6 +5,13 @@ import (
 	"fmt"
 )
 
+/*In this sea of what's computable, I must create and find
+A machine of logic, I do hope it's quite sublime.
+The thought of an oasis begins to fill my mind.
+Polygonal numbers, even turing machines, primes.
+I know, I know. It's not ideal,
+A simple sieve would be such an ordeal.*/
+
 func InterpretProgram(program string) int {
 	pointer := 0
 	memory := make([]int, 2048)
