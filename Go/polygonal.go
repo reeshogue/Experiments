@@ -20,9 +20,9 @@ func getPolygonal(s, n int) int {
 func main() {
 	s := flag.Int("s", 3, "shape of the number")
 	n := flag.Int("n", 4, "number index")
+	flag.Parse()
 	sPointer := *s
 	nPointer := *n
-	flag.Parse()
-	result := get_polygonal(sPointer, nPointer)
+	result := getPolygonal(sPointer, nPointer)
 	fmt.Printf("%d", result)
 }
